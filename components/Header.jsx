@@ -17,16 +17,17 @@ const Header = () => {
         <h1 className="hover:text-primary transition-all duration-300 cursor-pointer">
           What we do?
         </h1>
-        <h1 className="hover:text-primary transition-all duration-300 cursor-pointer">
-          Contact Us
-        </h1>
-        <div className="hover:text-primary transition-all duration-300 cursor-pointer">
-          About Us
-        </div>
+        <Link href="/Contact">
+          <h1 className="hover:text-primary transition-all duration-300 cursor-pointer">
+            Contact Us
+          </h1>
+        </Link>
       </div>
-      <button className=" bg-blue-700 text-white px-5 py-2 font-bold rounded-md ">
-        Login / SignUp
-      </button>
+      <Link href="/Login">
+        <button className=" bg-blue-700 text-white px-5 py-2 font-bold rounded-md ">
+          Login / SignUp
+        </button>
+      </Link>
     </header>
   );
 };

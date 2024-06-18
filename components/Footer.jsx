@@ -12,12 +12,18 @@ const Footer = () => {
           <p className="text-sm">© 2024 Mobigency. All Rights Reserved.</p>
         </div>
         <div className="flex items-center space-x-4">
-          <Link href="">
+          <a
+            href="https://www.facebook.com/profile.php?id=61560885792240&mibextid=ZbWKwL"
+            target="_blank"
+          >
             <FaFacebookF className="hover:text-primary cursor-pointer w-6 h-6" />
-          </Link>
-          <Link href="">
+          </a>
+          <a
+            href="https://www.instagram.com/mobigency?igsh=MWg0bjJydzNnMnhuMg=="
+            target="_blank"
+          >
             <AiOutlineInstagram className="hover:text-primary cursor-pointer w-6 h-6" />
-          </Link>
+          </a>
           <a href="https://wa.me/message/HIGS5L4IS54PG1" target="_blank">
             <BsWhatsapp className="hover:text-primary cursor-pointer w-6 h-6" />
           </a>
