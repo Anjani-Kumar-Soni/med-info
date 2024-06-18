@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -11,9 +12,15 @@ const Footer = () => {
           <p className="text-sm">© 2024 Mobigency. All Rights Reserved.</p>
         </div>
         <div className="flex items-center space-x-4">
-          <FaFacebookF className="hover:text-primary cursor-pointer w-6 h-6" />
-          <AiOutlineInstagram className="hover:text-primary cursor-pointer w-6 h-6" />
-          <BsWhatsapp className="hover:text-primary cursor-pointer w-6 h-6" />
+          <Link href="">
+            <FaFacebookF className="hover:text-primary cursor-pointer w-6 h-6" />
+          </Link>
+          <Link href="">
+            <AiOutlineInstagram className="hover:text-primary cursor-pointer w-6 h-6" />
+          </Link>
+          <a href="https://wa.me/message/HIGS5L4IS54PG1" target="_blank">
+            <BsWhatsapp className="hover:text-primary cursor-pointer w-6 h-6" />
+          </a>
         </div>
       </div>
     </footer>
