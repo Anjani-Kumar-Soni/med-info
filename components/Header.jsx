@@ -6,7 +6,11 @@ const Header = () => {
     <header className="flex justify-between h-20 items-center sticky top-0 bg-white px-5">
       {/* for logo */}
       <Link href="/">
-        <div className="text-2xl cursor-pointer">Mobigency</div>
+        <div
+          className="text-2xl cursor-pointer"
+        >
+          Mobigency
+        </div>
       </Link>
 
       {/* for options */}
@@ -24,7 +28,7 @@ const Header = () => {
         </Link>
       </div>
       <Link href="/Login">
-        <button className=" bg-blue-700 text-white px-5 py-2 font-bold rounded-md ">
+        <button className=" bg-blue-700 text-white px-5 py-2 font-bold rounded-md hover:bg-blue-500 cursor-pointer">
           Login / SignUp
         </button>
       </Link>
