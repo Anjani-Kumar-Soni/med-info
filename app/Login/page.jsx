@@ -43,7 +43,7 @@ const Page = () => {
                 htmlFor="password"
                 className="leading-7 text-sm text-gray-600"
               >
-                Password
+                Password 
               </label>
               <input
                 type="password"
